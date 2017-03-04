@@ -1,4 +1,6 @@
 body {
+    background-color: #000;
+    color: #fff;
     font-family: sans-serif;
     width: 800px;
     margin: 0 auto;
@@ -65,8 +67,15 @@ nav ul li {
     list-style: none;
     display: inline-block;
     margin-right: 15px;
+    padding: 20px;
+    background-color: #0ff;
 }
 
 nav #user-account {
     float: right;
+}
+.hd{
+  color: #fc6;
+  font-size: 70px;
+  text-align: center;
 }

@@ -7,11 +7,15 @@
         <link rel="stylesheet" href="/css/styles.css">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="/">home</a></li>
-                <li><a href="/blog">all posts</a></li>
-                <li><a href="/blog/newpost">new post</a></li>
+      <strong><h1 class="hd">BLOGZ</h1></strong>
+        <nav class="bar">
+            <ul class="bar">
+                <a href="/"><li>HOME</li></a>
+                <a href="/blog"><li>ALL POSTS</li></a>
+                <a href="/blog/newpost"><li>NEW POST</li></a>
+                <a href="/login"><li>LOGIN</li></a>
+                <a href="logout"><li>LOGOUT</li></a>
+                <a href="signup"><li>REGISTER</li></a>
             </ul>
         </nav>
         {% block content %}
